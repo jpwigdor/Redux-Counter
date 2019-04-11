@@ -1,8 +1,9 @@
-import { INCREMENT, DECREMENT } from '../actions';
+//Reducer File
+import { INCREMENT, DECREMENT } from "../actions";
 
 const initialState = {
   count: 0
-}
+};
 
 // Our reducer that handles our two action cases:
 // increment and decrement. It receives the state
